@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Predictive Effectiveness</h2>
+
+<form action="/predict" method="POST">
+  <label for="EaseOfUse">Pred value for EaseOfUse:</label><br>
+  <input type="text" id="EaseOfUse" name="EaseOfUse" value="0-5"><br>
+  <label for="Satisfaction">Pred value for Satisfaction:</label><br>
+  <input type="text" id="Satisfaction" name="Satisfaction" value="0-5"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+{{ pred }}
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
