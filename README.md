@@ -1,0 +1,1 @@
+This is the Drug related predication, where we are predicting the effectivness of the drug based on the given independent variables and check the effectiveness
