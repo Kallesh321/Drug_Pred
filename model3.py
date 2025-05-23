@@ -1,6 +1,7 @@
+
 from pickle import dump,load
 from pandas import read_csv
-A = read_csv("C:/Users/Kallesh/Downloads/na_drug (1).csv")
+A = read_csv("na_drug (1).csv")
 X = A[["Satisfaction","EaseOfUse"]]
 Y = A[["Effective"]]
 from sklearn.tree import DecisionTreeRegressor
